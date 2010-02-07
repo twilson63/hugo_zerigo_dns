@@ -16,6 +16,7 @@ class Hugo::Dns
     zone = Zerigo::DNS::Zone.find_or_create(domain)
     # find or create host
     host = Zerigo::DNS::Host.update_or_create(zone.id, hostname, type, ttl, data)
+    puts "Successfully configured DNS Host"
   end
   
   def user(arg=nil)
