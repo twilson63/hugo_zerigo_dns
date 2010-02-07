@@ -31,7 +31,11 @@ deployment architecture.
 
 Thats all there is to it, you need an account with zerigo, as well, but you should be mapping your dns to point to your cloud in no time.
 
-
+## How to Run the Testing
+  
+    rake spec
+    
+    
 ## Support
 
 If you have any issues or questions, please create a ticket at http://support.jackrussellsoftware.com

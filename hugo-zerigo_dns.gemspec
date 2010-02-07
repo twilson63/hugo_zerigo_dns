@@ -14,9 +14,10 @@ Gem::Specification.new do |s|
   s.email = %q{tom@jackhq.com}
   s.files = [
     "Rakefile",
-     "lib/hugo-zerigo_dns.rb",
-     "lib/hugo/cloud-zerigo_dns.rb",
-     "lib/hugo/dns.rb"
+     "lib/hugo/cloud_zerigo_dns.rb",
+     "lib/hugo/dns.rb",
+     "lib/hugo_zerigo_dns.rb",
+     "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/twilson63/hugo-zerigo_dns}
   s.rdoc_options = ["--charset=UTF-8"]
@@ -24,8 +25,9 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{A Hugo Plug-in that gives you automated access to zerigo_dns}
   s.test_files = [
-    "spec/lib/hugo/dns_spec.rb",
-     "spec/lib/hugo_spec.rb"
+    "spec/lib/cloud_zeigo_dns_spec.rb",
+     "spec/lib/hugo/dns_spec.rb",
+     "spec/spec_helper.rb"
   ]
 
   if s.respond_to? :specification_version then
